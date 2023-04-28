@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+    body {
+        text-align: center;
+        color: #A9A99E;
+        
+    }
+    .header {
+        background-color: #2E2E2E;
+        color: #A9A99E;
+        padding: 24px;
+        margin: -10px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .title {
+        margin: 3rem 10rem;
+        color: #2E2E2E;
+    }
+
+    a {
+        color: #A9A99E;
+        text-decoration: none;
+        padding-left: 200px;
+    }
+    .words {
+        text-align: center;
+        flex-direction: column;
+        column-count: 3;
+        /* margin: 4rem 18rem 4rem; */
+    }
+img{
+    height: fit-content;
+}    
+
+.first{
+    display: flexbox;
+    margin: 20px;
+
+}
+.second{
+    display: flexbox;
+    margin: 20px ;
+}
+.third{
+    display: flexbox;
+    margin: 30px ;
+    font-size: large;
+}
+
+    button {
+        background-color: transparent;
+        border-style: solid;
+        border-color:#A9A99E;
+        border-width: 2px;
+        height: 3rem;
+        width: 16rem;
+        font-size: large;
+        color: #A9A99E
+    }
+    button:hover {
+        border-style: none;
+        background-color: #A9A99E;
+        color: black;
+        cursor: pointer;
+    }
+    
+    b {
+        color: #2E2E2E;
+        text-align: center;
+    }
+
+    h3 {
+        color: #2E2E2E;
+    }
+    .bottom {
+        display: inline-block;
+        text-align: center;
+        text-align: left;
+    }
+    .foot {
+        color: #2E2E2E;
+        font-size: medium;
+    }
+    footer {
+        background-color: #2E2E2E;
+        color: #A9A99E;
+        padding: 24px;
+        margin: -10px;
+    }
